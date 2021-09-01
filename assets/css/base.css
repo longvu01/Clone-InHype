@@ -1,0 +1,92 @@
+:root {
+    --primary-color: #ef1a1a;
+    --gray-color: #f5f5f5;
+    --ad-bgc: #171719;
+
+    --text-color: #333;
+    --secondary-text-color: #bababa;
+
+    --orange-color :#ed7e4f;
+    --purple-color: #994db1;
+    --blue-color: #0d30c3;
+    --black-color: #160600;
+    --medicine-color: #5b4cce;
+}
+
+.wide,
+.footer-wrap {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+hr {
+    border-top: 1px solid var(--gray-color);
+}
+
+.img-ad {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 24px;
+}
+
+.btn {
+    background-color: #f40000;
+    color: #fff;
+    padding: 14px 16px;
+    width: fit-content;
+    min-width: 150px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.6rem;
+    margin-top: 24px;
+    transition: 0.15s ease-in;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #f52b2b;
+}
+
+.btn-center {
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.hto:hover {
+    color: var(--orange-color);
+}
+
+.mr20 {
+    margin-right: 12px;
+}
+
+.mt32 {
+    margin-top: 32px;
+}
+
+.mt-32 {
+    margin-top: -32px;
+}
+
+@media (min-width: 990px) {
+    .w30 {
+        width: 30%;
+    }
+
+    .w20 {
+        width: 20%;
+    }
+}
+
+.header__social-home ion-icon {
+    font-size: 2.8rem;
+    margin-right: 16px;
+    display: none;
+    cursor: pointer;
+}

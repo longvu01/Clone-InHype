@@ -1,0 +1,149 @@
+@media (max-width: 1199px) {
+    .wide {
+        max-width: 1100px;
+        padding: 0 15px;
+    }
+
+    .footer-wrap {
+        max-width: 1100px;
+        padding-left: 15px;
+        padding-right: 15px;
+        gap: 20px;
+    }
+
+    .header__social-ad {
+        /* height: 80%; */
+        margin-top: 8px;
+    }
+
+    .new-item-content {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr
+    }
+    .new-item-img {
+        padding-top: 45%;
+    }
+
+    .footer__lastes .content-list {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width: 990px) {
+    .header__social-nav,
+    .navbar,
+    .header hr,
+    .content-l-4 {
+        display: none;
+    }
+
+    .header__social {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .header__social-ad {
+        order: 3;
+        padding-top: 10%;
+        max-height: 95px;
+        /* height:auto; */
+    }
+
+    .hide-on-mb-tl {
+        display: none;
+    }
+
+    .header__social-home ion-icon {
+        display: inline-block;
+    }
+
+    .content-list-1-4 {
+        display:unset;
+    }
+
+    .content-item-1-4 {
+        margin-top: 32px;
+    }
+
+    .content-grid {
+        display: unset;
+    }
+
+    .footer-wrap {
+        flex-wrap: wrap;
+    }
+
+    .footer__about,
+    .footer__lastes,
+    .footer__nav,
+    .footer__sub {
+        width: 45%;
+    }
+
+    .header__social-home{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+} 
+
+
+@media (max-width: 1024px) {
+    .content-item-img:after,
+    .subnav-full-item-img:after {
+        display: none;
+    }
+}
+
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width:1023px) {
+
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .footer__about,
+    .footer__lastes,
+    .footer__nav,
+    .footer__sub {
+        width: 90%;
+        margin-top: 16px;
+    }
+    .content-item-l-8 {
+        display: flex;
+    }
+
+    .footer-wrap {
+        text-align: center;
+    }
+
+    .footer__lastes .content-item-info-tag {
+        margin: 16px auto;
+    }
+
+    .footer__about-header,
+    .footer__lastes-header,
+    .footer__nav-header,
+    .footer__sub-header {
+        color: #59a3d1;
+        margin-bottom: 24px;
+    }
+
+    .content-item-info-l-8 .content-item-info-tag{
+        margin-top: 24px;
+    }
+}
+
+/* Mobile small*/
+@media (max-width: 568px) {
+    .header__social-list-item:not(:last-child) {
+        display: none;
+    }
+}
